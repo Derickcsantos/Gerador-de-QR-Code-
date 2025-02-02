@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gerador de QR Code - Compartilhe seus links com uma única imagem">
+    <meta name="keyword" content="Compartilhar, Share, Projeto, Code, QR Code, QR, Derick, Derick Campos Santos">
+    <meta name="author" content=" Dérick campos santos, Derick, Dking">
+    <meta name="language" content="pt-BR">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="generator" content="Visual studio code">
+
+    <meta name="country" content="Brazil">
+    <meta name="language" content="Portuguese, PT-BR">
+    <meta name="geography" content="São Paulo, SP">
+    <meta name="copyright" content="https://geradordeqrcode-dcs.vercel.app">
+
+    <meta name="googlebot" content="index, follow">
+    <meta name="baidubot" content="index, follow">
+    <meta name="slurp" content="index, follow">
+    <meta name="yahoobot" content="index, follow">
+    <meta name="unknownbot" content="index, follow">
+    <meta name="msnbot" content="index, follow">
+    <meta name="robots" content="index,follow">
+
+    <meta name="google-site-verification" content="Sngd0CJaS-1oIXu-2khI_ObmvaArwtgqaceLyc1cPWI" />
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> <!-- Evitar cache -->
+    <meta http-equiv="Pragma" content="public">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <meta property="og:title" content="Gerador de QR Code - Gerador de QR Code - Compartilhe seus links com uma única imagem">
+    <meta property="og:site_name" content="Gerador de QR Code - DCS">
+    <meta property="og:description" content="Transforme seu corpo com os melhores planos de treino da CamposGYM!">
+    <meta property="og:image" content="./img/Logo DCS.png">
+    <meta property="og:url" content="https://geradordeqrcode-dcs.vercel.app">
+    <meta property="og:image:width" content="700">
+    <meta property="og:image:height" content="366">
+
+    <title>Gerador de QR Code</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image.png" href="./img/Logo DCS.png">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B06LDS4EHQ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B06LDS4EHQ');
+    </script>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="titulo">Gerador de QR Code</h1>
+
+        <div class="resultado">
+            <div id="qrcode"></div>
+        </div>
+        
+        <div class="formulario">
+            <input type="text" id="entradaTexto" placeholder="URL para o QR Code">
+            <button id="gerarQr" onclick="gerarQrCode()"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <div class="botoes">
+            <button class="botao-compartilhar" onclick="compartilharQrCode()"><i class="fa-solid fa-share-nodes"></i></button>
+            <button class="botao-baixar" onclick="baixarQrCode()"><i class="fa-solid fa-download"></i></button>
+            <button class="botao-conheca" onclick="window.location.href='https:linkedin.com/in/derick-campos-santos'"><i class="fa-brands fa-linkedin"></i></button>
+        </div>
+
+    </div>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+</body>
+</html>

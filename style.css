@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.322);
+    width: 100%;
+    max-width: 400px;
+}
+
+.titulo {
+    color: #002231;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 2px 0 0;
+}
+
+button {
+    padding: 20px;
+    background-color: #002231;
+    color: white;
+    margin: 10px 0 0 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button i{
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #1f4151;
+}
+
+.resultado {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.botao-conheca {
+    padding: 12px 25px;
+    margin: 10px 0 0 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: 0.5s ease;
+}
+
+.botao-conheca i{
+    font-size: 24px;
+}
+
+.botao-conheca:hover {
+    background-color: #2f64c9;
+    scale: 1.1;
+}
+
+@media (width <= 480px){
+    body{
+        background-color: #f5f5f5;
+    }
+    container{
+        margin: auto;
+    }
+}
